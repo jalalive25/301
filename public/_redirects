@@ -1,0 +1,7 @@
+# 301 Redirect từ perangangka.com sang olxtoto.hot
+
+# Redirect homepage
+/ https://olxtoto.hot/ 301!
+
+# Redirect all other paths
+/* https://olxtoto.hot/:splat 301!
